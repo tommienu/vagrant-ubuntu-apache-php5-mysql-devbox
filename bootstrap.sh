@@ -29,8 +29,10 @@ apt-get -y install php5 libapache2-mod-php5 php5-mcrypt
 #phpmyadmin
 apt-get -y install phpmyadmin
 sudo ln -s /etc/phpmyadmin/apache.conf /etc/apache2/conf.d/phpmyadmin.conf
-
 service apache2 restart
+
+#git
+apt-get -y install git-core
 
 #Xdebug
 apt-get -y install php5-dev php-pear
